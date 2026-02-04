@@ -10,6 +10,7 @@ int main(){
         cin>>array[i];
         
         if(array[i]>max){
+            smax=max;
             max=array[i];
         }
         else if(array[i]>smax && array[i]!=max){
